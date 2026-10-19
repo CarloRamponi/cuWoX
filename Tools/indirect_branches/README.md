@@ -1,0 +1,2 @@
+This tool finds the control flow transfers in the device code and classify them as direct/indirect and then by classifying the indirect ones as safe/unsafe.
+An safe indirect control-flow transfer is one whose destination pointer comes from a trusted source (e.g. constant memory), or never leaves the register file (e.g. not spilled saved return address).

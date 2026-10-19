@@ -1,0 +1,6 @@
+cudep_loadtime.so
+cudep_runtime.so
+patcher
+*.csv
+chrt
+bogus.so
